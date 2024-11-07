@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my page!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="calculate_tax.css">
+</head>
+
+<body>
+    <div class="p-5 bg-primary text-white text-center">
+        <h1>Welcome to my homepage!</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>About Me</h2>
+                <p>Hello! Nice to meet you. I am Nirmal Subedi, a student in the CIS 164 course.</p>
+                <h3 class="mt-4">Some Links</h3>
+                <p>Lorem ipsum dolor sit ame.</p>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <hr class="d-sm-none">
+            </div>
+            <div class="col-sm-8">
+                <h2>CIS 164</h2>
+                <h5>About CIS 164, Nov 6, 2024 </h5>
+                <img class="img-fluid rounded" src="images/js-icon.png" alt="Javascript Icon">
+                <p>This course covers client-side Web scripting using JavaScript and other Web page development tools.
+                    It covers the programming techniques of JavaScript useful to Web designers. Students will learn to
+                    create interactive and dynamic Web pages.</p>
+                <h2 class="mt-5">Income Tax Application</h2>
+                <h5>Activity 6, Nov 6, 2024</h5>
+                <main id="income_tax_calc">
+                    <h1>Income Tax Calculator</h1>
+                    <div>
+                        <label>Enter taxable income:</label>
+                        <input type="text" id="income" />
+                        <input type="button" value="Calculate" name="calculate" id="calculate" />
+                    </div>
+                    <div>
+                        <label>Income tax owed:</label>
+                        <input type="text" id="tax" disabled>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 p-4 bg-dark text-white text-center">
+        <p>Footer</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="calculate_tax.js"></script>
+</body>
+
+</html>
