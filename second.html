@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the website!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="subset_expansion.css">
+</head>
+
+<body>
+    <div class="p-5 bg-primary text-white text-center">
+        <h1>Welcome to the secondpage!</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="second.html">Second</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>About Me</h2>
+                <p>Hello! Nice to meet you. I am Nirmal Subedi, a student in the CIS 164 course.</p>
+                <h3 class="mt-4">View Other Pages:</h3>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="second.html">Second</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <hr class="d-sm-none">
+            </div>
+            <div class="col-sm-8">
+                <h2>Expand/Collapse Application</h2>
+                <h5>Project 1-2, Nov 16, 2024</h5>
+                <main id="jdom">
+                    <h1>The Evolution of JQuery</h1>
+                    <h2>Browser Compatibility Issues</h2>
+                    <div>
+                        <p>When introduced in <b>2006</b>, jQuery addressed a major challenge in early web development:
+                            <strong>browser compatibility</strong>. Different browsers often interpreted JavaScript in
+                            slightly
+                            different ways, leading to inconsistent behavior across platforms.
+                        </p>
+
+                    </div>
+                    <div class="hide">
+                        <p>By providing a unified, cross-browser
+                            compatible solution, developers could focus on building features rather than troubleshooting
+                            compatibility issues. Common tasks, such as selecting elements and manipulating properties,
+                            became much
+                            simpler, requiring fewer lines of code than traditional JavaScript. This ease of use made it
+                            a popular
+                            choice for developers looking to streamline their workflows.</p>
+                    </div>
+                    <a href="#">Show more</a>
+
+                    <h2>The Impact of Ajax</h2>
+                    <div>
+                        <p>One of its most significant contributions was simplifying <strong>AJAX</strong>
+                            (<i>Asynchronous
+                                JavaScript and XML</i>) functionality. Before its widespread use, handling asynchronous
+                            requests was
+                            a complex task that required more verbose JavaScript code. </p>
+                    </div>
+                    <div class="hide">
+                        <p>With built-in methods for making these
+                            requests, updating parts of a webpage dynamically became straightforward. This capability
+                            allowed the
+                            development of interactive applications like <i>Gmail</i> and <i>Facebook</i>, where content
+                            is updated
+                            in real time without a full page reload. By making AJAX more accessible, developers
+                            were empowered to create modern, dynamic web experiences.</p>
+                    </div>
+                    <a href="#">Show more</a>
+
+                    <h2>Rise of Other Frameworks</h2>
+                    <div>
+                        <p>As web development practices evolved, reliance on this tool began to decline with the rise of
+                            modern
+                            JavaScript frameworks such as <i>React</i>, <i>Angular</i>, and <i>Vue.js</i>. These
+                            frameworks
+                            introduced a more structured approach to building large-scale applications, using
+                            <strong>component-based architectures</strong> and <strong>state management</strong>
+                            techniques.
+                        </p>
+                    </div>
+                    <div class="hide">
+                        <p>Unlike older libraries that focused on direct <code>DOM</code> manipulation, modern
+                            frameworks provided a
+                            comprehensive solution for handling complex user interfaces and data flow. The improvements
+                            in
+                            JavaScript standards, like the introduction of <code>ES6</code>, also made many tasks
+                            previously
+                            simplified by this tool more efficient with native code. While still useful in smaller
+                            projects, the
+                            industry has largely shifted toward these frameworks for developing more scalable and
+                            maintainable
+                            applications.</p>
+                    </div>
+                    <a href="#">Show more</a>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 p-4 bg-dark text-white text-center">
+        <p>Footer</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="subset_expansion.js"></script>
+</body>
+
+</html>
