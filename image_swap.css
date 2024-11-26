@@ -1,0 +1,26 @@
+main {
+	font-family: Arial, Helvetica, sans-serif;
+	/* margin: 0 auto; */
+	padding: 20px;
+	width: 550px;
+	border: 3px solid blue;
+}
+main > h1, main > h2, main ul, main p {
+	margin: 0;
+	padding: 0;
+}
+main > h1 {
+	padding-bottom: .25em;
+}
+main > h2 {
+	font-size: 120%;
+	padding: .5em 0 .25em;
+}
+#image_list li {
+	padding-right: 10px;
+	display: inline;
+}
+#image {
+	max-width: 100%;
+	height: auto;
+}
