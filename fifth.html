@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Swap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="reservation.css">
+</head>
+
+<body>
+    <div class="p-5 bg-primary text-white text-center">
+        <h1>Welcome to the fifthpage!</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="second.html">Second</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="third.html">Third</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fourth.html">Fourth</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="fifth.html">Fifth</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>About Me</h2>
+                <p>Hello! Nice to meet you. I am Nirmal Subedi, a student in the CIS 164 course.</p>
+                <h3 class="mt-4">View Other Pages:</h3>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="second.html">Second</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="third.html">Third</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fourth.html">Fourth</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="fifth.html">Fifth</a>
+                    </li>
+                </ul>
+                <hr class="d-sm-none">
+            </div>
+            <div class="col-sm-8">
+                <h2>JavaScript Form Validation Application</h2>
+                <h5>Project 1-5, Dec 10, 2024</h5>
+                <form action="response.html" method="get"
+                name="feedback_form" id="feedback_form">
+                <h1>Website Feedback</h1>
+                <fieldset>
+                    <legend>Overall Experience</legend>
+                    <div>
+                        <label for="visits">Number of Visits:</label>
+                        <input type="text" name="visits" id="visits" autofocus>
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <label for="issue">Issue:</label>
+                        <input type="text" name="issue" id="issue">
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <label>Rating:</label>
+                        <select name="rating" id="rating">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>        		        		        		
+                            <option value="5" selected>5</option>        		        		        		
+                        </select>
+                    </div>
+                    <div>
+                        <label>Reason of Visit:</label>
+                        <select name="reason" id="reason">
+                            <option value="P/SI">Product/Service Information</option>
+                            <option value="LA">Looking Around</option>
+                            <option value="CI">Contact Information</option>
+                            <option value="O">Other</option>
+                        </select>
+                    </div>        	
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Feedback</legend>
+                    <div>
+                        <label>Easy to Navigate?</label>
+                        <input type="radio" name="navigate" id="yes" class="left" checked>Yes	        	
+                        <input type="radio" name="navigate" id="no" class="left last">No
+                    </div>
+                    <div>
+                        <label>Encountered errors?</label>
+                        <input type="radio" name="errors" id="yes" class="left">Yes
+                        <input type="radio" name="errors" id="no" class="left last" checked>No
+                    </div>
+                    <div>
+                        <input type="checkbox" name="contact" id="contact" checked>Contact Me
+                    </div>
+                </fieldset>		
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email">
+                        <span>*</span>
+                    </div>
+                    <div>
+                        <label for="phone">Phone:</label>
+                        <input type="text" name="phone" id="phone" placeholder="999-999-9999">
+                        <span>*</span>
+                    </div>
+                </fieldset>
+                <div>
+                    <input type="submit" id="submit" value="Submit Request">
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 p-4 bg-dark text-white text-center">
+        <p>Footer</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="reservation.js"></script>
+</body>
+
+</html>
